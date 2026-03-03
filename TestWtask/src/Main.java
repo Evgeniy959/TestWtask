@@ -14,5 +14,28 @@ public class Main {
         for (int i = arr.length-1; i >= 0; i--) {
             System.out.print(arr[i]);
         }
+
+        System.out.println();
+        System.out.println(reversNumber(4564278));
+        arrRev(arr);
+
     }
+    public static void arrRev(int[] arr){
+        int[] arrRev = new int[6];
+        for (int i = arr.length-1; i >= 0; i--) {
+            arrRev[i] = arr[i];
+            System.out.print(arrRev[i]);
+        }
+
+    }
+    public static long reversNumber(long num){
+        long revers = 0;
+        while (num != 0){
+            revers = revers*10 + num%10;
+            num = num/10;
+        }
+        return revers;
+
+    }
+
 }
