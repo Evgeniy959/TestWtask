@@ -9,6 +9,8 @@ public class Main {
         System.out.println(s1.equals(s2));
         System.out.println(s1 == s2);
         System.out.println(s1 == s3);
+        System.out.println("C".repeat(255));
+        System.out.println("C".repeat(4550));
 
         int[] arr = {2, 5, 6, 7, 8, 9};
         for (int i = arr.length-1; i >= 0; i--) {
