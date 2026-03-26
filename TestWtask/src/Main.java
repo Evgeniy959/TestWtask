@@ -15,6 +15,9 @@ public class Main {
         System.out.println("C".repeat(4550));
         System.out.println("C".repeat(55));
         System.out.println("C".repeat(25));
+        System.out.println("C".repeat(125));
+        System.out.println("C".repeat(45));
+        System.out.println("C".repeat(5));
 
         int[] arr = {2, 5, 6, 7, 8, 9};
         for (int i = arr.length-1; i >= 0; i--) {
